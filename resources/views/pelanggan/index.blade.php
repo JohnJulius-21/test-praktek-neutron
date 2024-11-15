@@ -25,7 +25,7 @@
                     style="width:17px;" class="fas fa-fw fa-plus"></i>
                 Tambah Pelanggan</a>
 
-            <table id="pelanggan" class="display table table-striped mt-2" style="width:100%">
+            <table id="datatable" class="display table table-striped mt-2" style="width:100%">
                 <thead>
                     <tr>
                         <th>Nama Pelanggan</th>
