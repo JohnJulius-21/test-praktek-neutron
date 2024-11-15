@@ -29,6 +29,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.7"></script>
     <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.10"></script>
 
+    <link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.1.8/datatables.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -149,7 +151,16 @@
     <script src="https://cdn.datawtables.net/2.1.6/js/dataTables.js"></script>
     <script src="{{ asset('style/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('style/js/demo/chart-pie-demo.js') }}"></script>
-    
+
+    <script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.1.8/datatables.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        new DataTable('#datatable', {
+            scrollX: true,
+            scrollY: 200
+        });
+    </script>
 
 </body>
 
